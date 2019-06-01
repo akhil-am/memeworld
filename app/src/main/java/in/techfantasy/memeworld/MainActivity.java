@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         }
 
 
-                        FeedParser.mainList = memeItemArrayList;
+                        VPActivity.memeItems = memeItemArrayList;
 
                         Intent intent = new Intent(MainActivity.this, VPActivity.class);
                         ctx.startActivity(intent);

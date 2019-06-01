@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class VPActivity extends AppCompatActivity {
@@ -23,7 +22,6 @@ public class VPActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vp);
         viewPager = findViewById(R.id.viewPager);
-        memeItems=new ArrayList<>();
 //        memeItems.addAll(FeedParser.getFeed(0,this));
         //mRequestQueue=Volley.newRequestQueue(this);
         mRequestQueue=Volley.newRequestQueue(this);
